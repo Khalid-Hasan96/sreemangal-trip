@@ -5,11 +5,13 @@
 }
 body{
     font-family: 'Luxurious Roman', cursive;
-    background-color: rgb(190, 238, 190);
+    background-color: rgb(216, 240, 216);
 }
+/* banner start */
 .container{
     max-width: 1200px;
     margin: 0 auto;
+   
 }
 .banner{
     
@@ -17,23 +19,205 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+   
 }
-.banner-info{
+.banner-info, .banner-right{
     flex:1;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-.banner-right{
-    flex:1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+/* -------------------
+animation start
+------------------- */
+
+
+.banner-title{
+    font-size: 60px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
 }
+.banner-title::before{
+    content:'Sreemangal Tour';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #4747fa;
+    animation: typing 3s ease-out infinite;
+}
+
+@keyframes typing{
+    4%{
+        content:'S|'
+    }
+    8%{
+        content:'Sr|'
+    }
+    12%{
+        content:'Sre|'
+    }
+    16%{
+        content:'Sree|'
+    }
+    20%{
+        content:'Sreem|'
+    }
+    24%{
+        content:'Sreema|'
+    }
+    28%{
+        content:'Sreeman|'
+    }
+    32%{
+        content:'Sreemang|'
+    }
+    36%{
+        content:'Sreemanga|'
+    }
+    40%{
+        content:'Sreemangal|'
+    }
+    44%{
+        content:'Sreemangal T|'
+    }
+    48%{
+        content:'Sreemangal To|'
+    }
+    52%{
+        content:'Sreemangal Tou|'
+    }
+    56%{
+        content:'Sreemangal Tour|'
+    }
+    60%{
+        content:'Sreemangal Tour.'
+    }
+    64%{
+        content:'Sreemangal Tour..'
+    }
+    68%{
+        content:'Sreemangal Tour...'
+    }
+    72%{
+        content:'Sreemangal Tour....'
+    }
+    76%{
+        content:'Sreemangal Tour....'
+    }
+    80%{
+        content:'Sreemangal Tour...'
+    }
+    81%{
+        content:'Sreemangal Tour..'
+    }
+    82%{
+        content:'Sreemangal Tour.'
+    }
+    83%{
+        content:'Sreemangal Tour|'
+    }
+    84%{
+        content:'Sreemangal Tou|'
+    }
+    85%{
+        content:'Sreemangal To|'
+    }
+    86%{
+        content:'Sreemangal T|'
+    }
+    87%{
+        content:'Sreemangal |'
+    }
+    88%{
+        content:'Sreemangal|'
+    }
+    89%{
+        content:'Sreemanga|'
+    }
+    90%{
+        content:'Sreemang|'
+    }
+    91%{
+        content:'Sreeman|'
+    }
+    92%{
+        content:'Sreema|'
+    }
+    93%{
+        content:'Sreem|'
+    }
+    94%{
+        content:'Sree|'
+    }
+    95%{
+        content:'Sre|'
+    }
+    96%{
+        content:'Sr|'
+    }
+    97%{
+        content:'S|'
+    }
+    98%{
+        content:'S|'
+    }
+    99%{
+        content:'|';
+    }
+    100%{
+        content:'|'
+    }
+}
+.banner-text{
+    line-height: 1.5;
+    margin: 20px 0;
+    text-align: justify;
+}
+.button{
+    outline: 0;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #4747fa;
+    color: #fff;
+    border: 4px solid #4747fa;
+    cursor: pointer;
+    transition: .3s linear;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: transparent;
+    color: #4747fa;
+}
+/* .button{
+    background-color:  #4747fa;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px gray;
+}
+.button:hover{
+    background-color: #00fc61;
+    transition: background-color 2s;
+}
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+   
+} */
+/* -------------------
+animation end
+------------------- */
 .banner-right img{
     width: 510px;
     height: 380px;
+    border-radius: 10px;
 }
+/* banner end */
+/* ---------------------------- */
+/* gallery start */
 
+
+
+/* gallery end */
